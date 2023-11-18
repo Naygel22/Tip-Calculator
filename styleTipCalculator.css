@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #302f2f;
+}
+.title{
+  color: #302f2f;
+  margin-top: -20px;
+}
+.card{
+  width: 90%;
+  max-width: 500px;
+  background: white;
+  color: #222;
+  margin: 100px auto 0;
+  border-radius: 5px;
+  padding: 40px 18px;
+  text-align: center;
+}
+.enterBar{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+.currencyBox {
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-right: 0;
+ 
+}
+.numberInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: 0px;
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+}
+
+.currencySymbol {
+  font-size: 14px;
+}
+.rangeBar{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+.rangeInput{
+  width: 100%;
+}
+.percentageBox{
+  display: flex;
+  margin-left: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 60px;
+  height: 30px;
+}
+.percent{
+  font-size: 14px;
+}
+.results{
+  margin-top: 80px;
+  font-weight: bold;
+}
+.tipBar{
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+}
+.tipAmountBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #ccc;
+  border-right: 0;
+  width: 110px;
+  height: 30px;
+  
+}
+.tipAmount {
+  font-size: 14px;
+}
+.tipAmountResultBox{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #ddd;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 30px;
+}
+.tipAmountResult{
+  font-size: 14px;
+}
+.totalBar{
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  margin-bottom: -10px;
+}
+.totalBox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid #ccc;
+  border-right: 0;
+  width: 170px;
+  height: 30px;
+  
+}
+.totalText {
+  font-size: 14px;
+}
+.totalResultBox{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background-color: #ddd;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 30px;
+}
+.totalResult{
+  font-size: 14px;
+}
+
+
+

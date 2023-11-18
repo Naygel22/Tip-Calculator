@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="styleTipCalculator.css">
+</head>
+<body>
+  <div class = "card">
+    <div class = "title">
+      <h1>Tip Calculator</h1>
+    </div>
+    <div class = "enterBar">
+      <div class="currencyBox">
+        <div class="currencySymbol">
+          <p>$</p>
+          </div>
+      </div>
+      <input type="number" class="numberInput" placeholder="Enter a number here">
+    </div>
+
+    <div class="rangeBar">
+      <p>Tip:</p>
+      <input type="range" class="rangeInput" min="0" max="100"  step="1">
+      <div class="percentageBox">
+        <div class="percent">
+          <p><output id="value"></output>%</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="results">
+      <p>Results</p>
+    </div>
+
+    <div class="tipBar">
+      <div class="tipAmountBox">
+        <div class="tipAmount">
+          <p>Tip Amount</p>
+        </div>
+      </div>
+      <div class="tipAmountResultBox">
+        <div class="tipAmountResult">
+          <p><output id="value2"></output></p>  <!--19,00-->
+        </div>
+      </div>
+    </div>
+
+    <div class="totalBar">
+      <div class="totalBox">
+        <div class="totalText">
+          <p>Total Bill with Tip</p>
+        </div>
+      </div>
+      <div class="totalResultBox">
+        <div class="totalResult">
+          <p><output id="value3"></output></p>  <!--190,00-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="tipCalculator.js"></script>
+  
+</body>
+</html>
